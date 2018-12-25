@@ -37,6 +37,7 @@ progressLoadingScreen 0.1;
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\medical\setup_functions_med.sqf";
 progressLoadingScreen 0.15;
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";
+call compile preprocessFileLineNumbers "dayz_code\init\compiles.sqf";//Custom functions
 progressLoadingScreen 0.25;
 initialized = true;
 
