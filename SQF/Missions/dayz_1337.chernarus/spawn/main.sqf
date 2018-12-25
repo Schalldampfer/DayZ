@@ -29,6 +29,8 @@ waitUntil {
 
 ["",1] call dayz_rollingMessages;
 
+diag_log format["Login:%1",PVCDZ_plr_Login2];
+
 //Exit if not a fresh spawn
 if !(PVCDZ_plr_Login2 select 4) exitWith {
 	#include "functions\finish.sqf"
