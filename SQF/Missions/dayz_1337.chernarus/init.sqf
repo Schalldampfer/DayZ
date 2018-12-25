@@ -37,6 +37,7 @@ progressLoadingScreen 0.1;
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\medical\setup_functions_med.sqf";
 progressLoadingScreen 0.15;
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";
+call compile preprocessFileLineNumbers "dayz_code\init\compiles.sqf";//Custom functions
 progressLoadingScreen 0.25;
 initialized = true;
 
@@ -65,10 +66,17 @@ if (!isDedicated) then {
 	execVM "\z\addons\dayz_code\system\antihack.sqf";
 	
 	if (dayz_townGenerator) then { execVM "\z\addons\dayz_code\compile\client_plantSpawner.sqf"; };
+	"PVDZ_login" addPublicVariableEventHandler {call (_this select 1)};
+	PVDZ_getTickTime = [getPlayerUID player];
+	publicVariableServer "PVDZ_getTickTime";
+	call compile preprocessFileLineNumbers "spawn\init.sqf";
 	execFSM "\z\addons\dayz_code\system\player_monitor.fsm";
 	waitUntil {scriptDone progress_monitor};
+	[player,"tentunpack",0,true,5] call dayz_zombieSpeak;
 	cutText ["","BLACK IN", 3];
 	3 fadeSound 1;
 	3 fadeMusic 1;
 	endLoadingScreen;
 };
+
+setViewDistance 2500;

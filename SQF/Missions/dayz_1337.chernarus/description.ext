@@ -1,8 +1,8 @@
 respawn = "BASE";
 respawnDelay = 0;
 respawnDialog = 0;
-onLoadMission= "DayZ Chernarus";
-OnLoadIntro = "Welcome to Chernarus";
+onLoadMission= "DayZ : Not Stand Alone";
+OnLoadIntro = "Somewhere on Chernarus";
 OnLoadIntroTime = False;
 OnLoadMissionTime = False;
 disabledAI = true;
@@ -18,10 +18,10 @@ disabledAI = true;
 	5 = Direct
 	6 = System
 */
-disableChannels[] = {0,1,2,6};
+disableChannels[] = {0,2,6};
 
-enableItemsDropping = 0;
-onPauseScript = "";
+enableItemsDropping = 1;
+onPauseScript = "scripts\dupe\DupingFix.sqf";
 briefing = 0;
 debriefing = 0;
 
@@ -38,4 +38,51 @@ aiKills = 1;
 diagRadio = 1;
 diagHit = 1;
 
+class CfgSounds
+{
+	sounds[] = 
+	{
+		xmas,
+		alarm,
+		dump,
+		Radio_Message_Sound,
+		IWAC_Message_Sound,
+		tada
+	};
+	class xmas
+	{
+		name="xmas";
+		sound[]={scripts\radio\xmas.ogg,0.9,1};
+		titles[] = {};
+	};
+	class alarm {
+		name="alarm";
+		sound[]={scripts\radio\alarm.ogg,0.9,1};
+		titles[] = {};
+	};
+	class dump {
+		name = "dump";
+		sound[] = {scripts\radio\dump.ogg,0.4,1};
+		titles[] = {};
+	};
+	class Radio_Message_Sound {
+		name="Radio_Message_Sound";
+		sound[] = {scripts\radio\radio.ogg, 0.4, 1};
+		titles[] = {};
+	};
+	class IWAC_Message_Sound
+	{
+		name="IWAC_Message_Sound";
+		sound[] = {scripts\radio\IWACsound.ogg,0.4,1};
+		titles[] = {};
+	};
+	class tada
+	{
+		name="tada";
+		sound[] = {scripts\radio\tada.ogg,0.9,1};
+		titles[] = {};
+	};
+};
+
 #include "\z\addons\dayz_code\gui\description.hpp"
+#include "spawn\dialogs.hpp"
