@@ -72,8 +72,11 @@ if (!isDedicated) then {
 	call compile preprocessFileLineNumbers "spawn\init.sqf";
 	execFSM "\z\addons\dayz_code\system\player_monitor.fsm";
 	waitUntil {scriptDone progress_monitor};
+	[player,"tentunpack",0,true,5] call dayz_zombieSpeak;
 	cutText ["","BLACK IN", 3];
 	3 fadeSound 1;
 	3 fadeMusic 1;
 	endLoadingScreen;
 };
+
+setViewDistance 2500;
