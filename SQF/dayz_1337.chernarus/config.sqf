@@ -43,3 +43,5 @@ dayz_ServerMessages = [
 	["Note", "Wait for being killed."],
 	["News", "Newly spawned now"]
 ];
+
+adminsList= ["76561198155787911"];  //An array of adms replace with your admins ids
