@@ -19,7 +19,7 @@ dayz_presets = "Custom"; //"Custom","Classic","Vanilla","Elite"
 //Only need to edit if you are running a custom server.
 if (dayz_presets == "Custom") then {
 	dayz_enableGhosting = true; //Enable disable the ghosting system.
-	dayz_ghostTimer = 30; //Sets how long in seconds a player must be disconnected before being able to login again.
+	dayz_ghostTimer = 15; //Sets how long in seconds a player must be disconnected before being able to login again.
 	dayz_spawnselection = 0; //Turn on spawn selection 0 = random only spawns, 1 = spawn choice based on limits
 	dayz_spawncarepkgs_clutterCutter = 2; //0 = loot hidden in grass, 1 = loot lifted, 2 = no grass
 	dayz_spawnCrashSite_clutterCutter = 2;	// heli crash options 0 = loot hidden in grass, 1 = loot lifted, 2 = no grass
