@@ -9,7 +9,7 @@ _damage = _this select 2;
 _hitter = _this select 3;
 _projectile = _this select 4;
 
-if (_projectile in MeleeAmmo) then {
+if ((_projectile in MeleeAmmo) || (_projectile isKindOf "Bolt")) then { //increase damage for melee and bolt
 	_damage = _damage * 10;
 };
 
