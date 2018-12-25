@@ -13,6 +13,10 @@ if (_projectile in MeleeAmmo) then {
 	_damage = _damage * 10;
 };
 
+if (_zed isKindOf "z_soldier" || _zed isKindOf "zZombie_new_Base") then {
+	_damage = _damage * 0.2;
+};
+
 if (local _zed) then {
 	if (_damage > 1 and _projectile != "") then {
 		//Record deliberate critical damages
