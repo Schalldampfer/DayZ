@@ -10,3 +10,4 @@ if (!isDedicated) then {
 
 fnc_usec_damageHandler = compile preprocessFileLineNumbers "dayz_code\compile\fn_damageHandler.sqf";
 local_zombieDamage = compile preprocessFileLineNumbers "dayz_code\compile\fn_damageHandlerZ.sqf";
+local_eventKill = compile preprocessFileLineNumbers "dayz_code\compile\local_eventKill.sqf";
