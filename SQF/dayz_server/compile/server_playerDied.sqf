@@ -18,6 +18,7 @@ _method = _this select 9;
 dayz_died set [count dayz_died, _playerID];
 
 _newObject setVariable ["bodyName",_playerName,true];
+_newObject setVariable ["bodyUID",_playerID,true];
 _pos = getPosATL _newObject;
 
 // force to follow the terrain slope in sched_corpses.sqf

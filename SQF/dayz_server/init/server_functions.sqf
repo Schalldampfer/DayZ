@@ -252,3 +252,5 @@ fa_plr2str = {
 	};
 	_res
 };
+
+#include "spawn_config.sqf"

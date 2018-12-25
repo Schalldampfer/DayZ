@@ -68,6 +68,7 @@ if (!isDedicated) then {
 	"PVDZ_login" addPublicVariableEventHandler {call (_this select 1)};
 	PVDZ_getTickTime = [getPlayerUID player];
 	publicVariableServer "PVDZ_getTickTime";
+	call compile preprocessFileLineNumbers "spawn\init.sqf";
 	execFSM "\z\addons\dayz_code\system\player_monitor.fsm";
 	waitUntil {scriptDone progress_monitor};
 	cutText ["","BLACK IN", 3];

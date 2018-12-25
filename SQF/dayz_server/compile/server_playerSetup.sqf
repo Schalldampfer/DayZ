@@ -225,7 +225,7 @@ if (_findIndex > -1) then {
 	dayz_serverClientKeys set [(count dayz_serverClientKeys), [_clientID,_randomKey]];
 };
 
-PVCDZ_plr_Login2 = [_worldspace,_state,_randomKey];
+PVCDZ_plr_Login2 = [[0,respawn_west_original],_state,_randomKey,_worldspace,_randomSpot,([_randomSpot,_playerID] call spawn_config)];
 _clientID publicVariableClient "PVCDZ_plr_Login2";
 if (dayz_townGenerator) then {
 	_clientID publicVariableClient "PVCDZ_plr_plantSpawner";
