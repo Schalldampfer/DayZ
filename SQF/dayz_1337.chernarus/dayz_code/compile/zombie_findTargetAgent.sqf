@@ -24,7 +24,6 @@ _targets = _localtargets + _remotetargets;
 	
 //Search for objects
 if (count _targets == 0) then {
-//"ThrownObjects","GrenadeHandTimedWest","SmokeShell"]
 	private["_objects"];
 	_objects = _agent nearObjects ["GrenadeHand", 300];
 	{
@@ -37,6 +36,8 @@ if (count _targets == 0) then {
 		};
 	} foreach _objects;
 };
+
+if ((local _agent) && (rating _agent > -30000)) then {_agent addRating -30000;};
 
 //Find best target
 if (count _targets > 0) then {
