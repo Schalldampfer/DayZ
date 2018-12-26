@@ -86,3 +86,4 @@ class CfgSounds
 
 #include "\z\addons\dayz_code\gui\description.hpp"
 #include "spawn\dialogs.hpp"
+#include "dayz_code\Configs\CfgLoot\CfgLoot.hpp"

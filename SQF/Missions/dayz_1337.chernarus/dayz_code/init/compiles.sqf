@@ -7,8 +7,6 @@ if (!isDedicated) then {
 	zombie_findTargetAgent = compile preprocessFileLineNumbers "dayz_code\compile\zombie_findTargetAgent.sqf";
 	player_toggleSoundMute = compile preprocessFileLineNumbers "dayz_code\compile\player_toggleSoundMute.sqf";
 	player_selectSlot = compile preprocessFileLineNumbers "dayz_code\compile\ui_selectSlot.sqf";
-
-	call compile preprocessFileLineNumbers "dayz_code\loot\compile.sqf";
 };
 
 fnc_usec_damageHandler = compile preprocessFileLineNumbers "dayz_code\compile\fn_damageHandler.sqf";
