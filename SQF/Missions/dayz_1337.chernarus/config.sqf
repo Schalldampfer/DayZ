@@ -37,11 +37,12 @@ dayz_maxGlobalZeds = 600; //Limit the total zeds server wide.
 dayz_temperature_override = false; // Set to true to disable all temperature changes.
 
 dayz_ServerMessages = [
-	["DayZMod", "Welcome "+(name player)],
-	["World", worldName],
+	["DayZMod", format["Welcome to %1, %2", worldName, name player]],
 	["Discord", "https://discord.gg/czZr3xW - room for the server soon"],
+	["Note", "Read a bible item for information."],
+	["Note", "Zeds for humanity."],
 	["Note", "Wait for being killed."],
-	["News", "Newly spawned now"]
+	["News", "Newly spawned now..."]
 ];
 
 adminsList= ["76561198155787911"];  //An array of adms replace with your admins ids
