@@ -15,6 +15,6 @@ if(!(isNull findDisplay 106)) then {findDisplay 106 closeDisplay 0}; // close ge
 <t size='0.8' shadow='1'align='left' color='#FFFFFF'>Customized loot table.</t><br/>
 <t size='0.8' shadow='1'align='left' color='#FFFFFF'>Spawn selection according to humanity.</t><br/>
 <t size='0.8' shadow='1'align='left' color='#FFFFFF'>Kill Zeds for humanity.</t><br/>
-<t size='0.8' shadow='1'align='left' color='#FFFFFF'>Bandits on patrol or looting villages.</t><br/>
+<t size='0.8' shadow='1'align='left' color='#FFFFFF'>Bandits on patrol or camping.</t><br/>
 <t size='0.8' shadow='1'align='left' color='#FFFFFF'>[F1]:earplug [F3]:hide status</t><br/>
 "];
