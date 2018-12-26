@@ -39,6 +39,7 @@ progressLoadingScreen 0.15;
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";
 call compile preprocessFileLineNumbers "dayz_code\init\compiles.sqf";//Custom functions
 progressLoadingScreen 0.25;
+call compile preprocessFileLineNumbers "scripts\clickActions\init.sqf";
 initialized = true;
 
 setTerrainGrid 25;
