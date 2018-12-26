@@ -9,7 +9,7 @@ NAME(spawnGroup) =  CPP PATH(spawnGroup.sqf);
 NAME(insert) =      CPP PATH(insert.sqf);
 NAME(insertCargo) = CPP PATH(insertCargo.sqf);
 
-diga_log "Customized LootCfg"
+diga_log "Customized LootCfg";
 
 //Loot init
 call CPP PATH(init.sqf);
