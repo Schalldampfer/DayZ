@@ -13,13 +13,7 @@ if (local _zed) then {
 	_killer setVariable[_type,(_kills + 1),true];
 
 	//increase players humanity when zed killed
-	_humanity = _killer getVariable["humanity",0];
-	if (_humanity < 2500) then {
-		_humanity = _humanity + 1;
-	} else {
-		_humanity = _humanity + 5;
-	};
-	_killer setVariable["humanity",_humanity,true];
+	[5,0] call player_humanityChange;
 
 	//Explosive Zeds
 	if (_zed isKindOf "z_soldier") then {
