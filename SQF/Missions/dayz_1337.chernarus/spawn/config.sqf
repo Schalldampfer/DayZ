@@ -6,8 +6,8 @@
 */
 
 class_selection = true; //Enable class selection dialog
-#define START_ITEMS "ItemBandage",2,"ItemAntibacterialWipe","ItemPainkiller","ItemSodaCoke","ItemSodaPepsi","FoodPistachio"
-#define START_TOOLS "ItemFlashlight","Item3Matchbox","NVGoggles"
+#define START_ITEMS "ItemBandage",2,"ItemAntibacterialWipe","ItemPainkiller","ItemSodaCoke","ItemSodaPepsi","FoodPistachio","ItemBookBible"
+#define START_TOOLS "ItemFlashlight","Item3Matchbox"
 class_public = [ // These are visible to anyone on the server
 	[localize "str_playerstats_bandit","Bandit1_DZ","BanditW1_DZ",[START_ITEMS,"8Rnd_9x18_Makarov",2],[START_TOOLS,"Makarov_DZ"],"DZ_Czech_Vest_Pouch",["HandRoadFlare"],[],0,-1,0,"MeleeCrowbar"],
 	[localize "str_playerstats_hero","Survivor3_DZ","SurvivorW2_DZ",[START_ITEMS,"15Rnd_W1866_Slug",2],[START_TOOLS,"Winchester1866_DZ"],"DZ_ALICE_Pack_EP1",["HandRoadFlare"],[],0,5000,0,"MeleeHatchet"],

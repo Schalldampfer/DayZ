@@ -13,6 +13,7 @@
 //                  (example = {true})
 //  EXAMPLE -- see below for some simple examples
 DZE_CLICK_ACTIONS = [
+	["ItemBookBible","Read Info","execVM 'scripts\clickActions\examples\serverRules.sqf';","true"],
 	["ItemGPS","Scan nearby","execVM 'scripts\clickActions\examples\scanner.sqf';","true"]
 ];
 
