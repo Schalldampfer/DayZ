@@ -13,7 +13,7 @@ diag_log "[DZAI] Reading DZAI configuration file.";
 
 //Enable or disable event logging to arma2oaserver.rpt. Debug level setting. 0: No debug output, 1: Basic Debug output, 2: Extended Debug output. (Default: 0)
 //Debug output may help finding additional information about DZAI's background behavior. This output is helpful when asking for help regarding bugs or unexpected behaviors.
-DZAI_debugLevel = 1;
+DZAI_debugLevel = 0;
 
 //Frequency of server monitor update to RPT log in seconds. The monitor periodically reports number of max/current AI units and dynamically spawned triggers into RPT log. (Default: 300, 0 = Disable reporting)
 DZAI_monitorRate = 600;
@@ -27,7 +27,7 @@ DZAI_extendedVerify = false;
 
 //Enable to have server spawn in objects/buildings normally spawned clientside by DayZ's CfgTownGenerator. Prevents AI from walking/shooting through clutter and other objects. (Default: true)
 //If running DayZ Mod ("vanilla DayZ") or DayZ Overwatch, it is highly recommended to enable this option, as many added buildings are handled by the CfgTownGenerator. Not used with Epoch.
-DZAI_objPatch = false;
+DZAI_objPatch = true;
 
 //Minimum seconds to pass until each dead AI body or destroyed vehicle can be cleaned up by DZAI's task scheduler. DZAI will not clean up a body/vehicle if there is a player close by (Default: 900).
 //Note: Other cleanup scripts might interfere by cleaning up dead AI bodies/vehicles!
@@ -35,7 +35,7 @@ DZAI_cleanupDelay = 1200;
 
 //Enable auto detection of DayZ mod type ran by server. If additional support exists for the mod type, DZAI will load additional classnames (example: weapons, skins, or other items)
 //Additional support exists for the following DayZ mods: Epoch, Overwatch, Unleashed, Hunting Grounds, 2017. (Default: true)
-DZAI_modAutoDetect = true;
+DZAI_modAutoDetect = false;
 
 
 /*	AI Unit Settings

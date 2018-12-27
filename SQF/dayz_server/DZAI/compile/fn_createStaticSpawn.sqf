@@ -41,7 +41,7 @@ if !(_equipType in [0,1,2,3]) then {_equipType = 1};
 
 _onActStatements = format ["_nul = [%1,%2,%3,thisTrigger,%4,%5,%6] call DZAI_spawnBandits_init;",_minAI,_addAI,_patrolDist,_positionArray,_equipType,_numGroups];
 _trigger = createTrigger ["EmptyDetector", getMarkerPos(_spawnMarker)];
-_trigger setTriggerArea [600, 600, 0, false];
+_trigger setTriggerArea [1000, 1000, 0, false];
 _trigger setTriggerActivation ["ANY", "PRESENT", true];
 _trigger setTriggerTimeout [10, 10, 10, true];
 _trigger setTriggerText _spawnMarker;

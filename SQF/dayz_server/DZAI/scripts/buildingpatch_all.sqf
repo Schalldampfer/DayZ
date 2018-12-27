@@ -29,12 +29,14 @@ if (_configExists) then {
 				_objDir = getNumber (_config >> "direction");
 				
 				//diag_log format ["OBJECT PATCH :: Creating object %1 at %2.",_objType,_objPos];
-				_object = _objType createVehicleLocal [_objPos select 0,_objPos select 1,0];
-				_object setDir _objDir;
-				_object setPos [_objPos select 0,_objPos select 1,0];
-				_object allowDamage false;
-				_object enableSimulation false;
-				if ((_i % 25) == 0) then {uiSleep 0.01;};
+				if (!isOnRoad _objPos) then {
+					_object = _objType createVehicleLocal [_objPos select 0,_objPos select 1,0];
+					_object setDir _objDir;
+					_object setPos [_objPos select 0,_objPos select 1,0];
+					_object allowDamage false;
+					_object enableSimulation false;
+					if ((_i % 25) == 0) then {uiSleep 0.01;};
+				};
 			};
 		};
 	};
