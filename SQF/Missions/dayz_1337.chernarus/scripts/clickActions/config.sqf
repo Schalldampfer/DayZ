@@ -14,7 +14,7 @@
 //  EXAMPLE -- see below for some simple examples
 DZE_CLICK_ACTIONS = [
 	["ItemBookBible","Read Info","execVM 'scripts\clickActions\examples\serverRules.sqf';","true"],
-	["ItemRadio","Hide/See Status","debugMonitor = !debugMonitor; [] execVM 'dayz_code\compile\Player_Debug.sqf';","true"],
+	["ItemRadio","Hide/See Status","debugMonitor = !debugMonitor;hintSilent ''; [] execVM 'dayz_code\compile\Player_Debug.sqf';","true"],
 	["ItemGPS","Scan nearby","execVM 'scripts\clickActions\examples\scanner.sqf';","true"]
 ];
 
