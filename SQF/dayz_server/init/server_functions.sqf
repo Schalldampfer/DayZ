@@ -254,6 +254,7 @@ fa_plr2str = {
 };
 
 #include "spawn_config.sqf"
+#include "mission_check.sqf"
 
 //Map addons
 call compile preProcessFileLineNumbers "\z\addons\dayz_server\addons\init_aicity.sqf";//functions
