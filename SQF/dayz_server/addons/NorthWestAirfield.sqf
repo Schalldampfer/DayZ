@@ -1,4 +1,6 @@
+diag_log "Loading...";
 if (isServer) then {
+	diag_log "NWAF objects spawning";
 [
 ["Land_Mil_Barracks_i", [4635.3262, 10494.984],58.469273],
 ["Land_Mil_Barracks_i", [4642.998, 10499.51],58.816505],
@@ -336,4 +338,5 @@ if (isServer) then {
 		_object setDir (_x select 2);
 		_object setPos (_x select 1);
 	} count _this;
+	diag_log "NWAF objects spawned";
 };

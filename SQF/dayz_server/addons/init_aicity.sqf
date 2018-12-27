@@ -1,6 +1,6 @@
 
 if (!isServer) exitWith {};
-diag_log "[Loading AI cities]";
+diag_log "[AICity] Loading AI cities";
 
 if (isNil "wai_crate_setup") then {
 	wai_crate_setup = {
@@ -19,4 +19,4 @@ if (isNil "wai_crate_setup") then {
 //AI cities
 call compile preProcessFileLineNumbers "\z\addons\dayz_server\addons\NorthWestAirfield.sqf";
 
-diag_log "[AI cities are loaded]";
+diag_log "[AICity] AI cities are loaded";
