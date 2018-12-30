@@ -53,7 +53,7 @@ while {debugMonitor} do
 	<br/>
 	<t size='1' font='Bitstream' align='left' color='#D9FF00'>%11</t><t size='0.9' font='Bitstream' align='right' color='#D9FF00'>@%10</t>
 	<br/>
-	<t size='1' font='Bitstream' align='left' color='#FFBF00'>Players/AIs : </t><t size='1' font='Bitstream' align='right'>%13/%1</t>
+	<t size='1' font='Bitstream' align='left' color='#FFBF00'>Players/AIs : </t><t size='1' font='Bitstream' align='right'>%1</t>
 	<br/>
 	<t size='1' font='Bitstream' align='left' color='#FA1A16'>Blood:</t><t size='1' font='Bitstream' align='right' color='#FFFFFF'>%3</t>
 	<br/>
@@ -79,8 +79,7 @@ while {debugMonitor} do
 		(player getVariable['zombieKills', 0]),					//%9
 		_textCity,												//%10
 		_dmtit,													//%11
-		_dmpic,													//%12
-		(count playableUnits)									//%13
+		_dmpic													//%12
 	];
 	sleep 1.0;
 };
