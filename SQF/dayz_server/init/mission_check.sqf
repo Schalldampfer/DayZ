@@ -5,7 +5,7 @@
 //List of files in your mission to check. For example, you may want to add 'custom\variables.sqf' etc.
 //Remove any you aren't using
 _files = [
-	'config.sqf','description.ext','init.sqf','mission.sqm','rules.sqf',
+	'config.sqf','description.ext','init.sqf','mission.sqm','rules.sqf','z\addons\dayz_code\system\scheduler\sched_security.sqf',
 	'custom\fn_halo.sqf','dayz_code\init\compiles.sqf','scripts\radio\switch_on_off.sqf','dayz_code\compile\Player_Debug.sqf',
 	'dayz_code\compile\fn_damageHandler.sqf','dayz_code\compile\fn_damageHandlerZ.sqf','dayz_code\compile\local_eventKill.sqf',
 	'dayz_code\compile\player_toggleSoundMute.sqf','dayz_code\compile\ui_selectSlot.sqf','dayz_code\compile\zombie_findTargetAgent.sqf',
