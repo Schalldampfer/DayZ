@@ -28,9 +28,9 @@ _DZAI_spawn = {
 	} foreach (nearestLocations [getMarkerPos "center", (_this select 0),(getMarkerSize "center") select 0]);
 };
 
-[["NameLocal"],		[2,2],2,0.3] call _DZAI_spawn;
+[["NameLocal"],		[2,2],2,0.5] call _DZAI_spawn;
 [["NameVillage"],	[2,1],1,0.1] call _DZAI_spawn;
-[["Hill"],			[1,2],0,0.4] call _DZAI_spawn;
+[["Hill"],			[1,2],0,0.5] call _DZAI_spawn;
 
 /*
 if (DZAI_staticAI) then {
