@@ -82,3 +82,6 @@ if (!isDedicated) then {
 };
 
 setViewDistance 2500;
+
+//Time ctrl
+call compile preprocessFileLineNumbers "scripts\time_control.sqf";

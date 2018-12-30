@@ -11,7 +11,7 @@ _files = [
 	'dayz_code\compile\player_toggleSoundMute.sqf','dayz_code\compile\ui_selectSlot.sqf','dayz_code\compile\zombie_findTargetAgent.sqf',
 	'scripts\clickActions\config.sqf','scripts\clickActions\init.sqf','scripts\clickActions\examples\scanner.sqf',
 	'scripts\clickActions\examples\serverRules.sqf','scripts\clickActions\examples\suicide.sqf','scripts\dupe\DupingFix.sqf',
-	'spawn\config.sqf','spawn\dialogs.hpp','spawn\init.sqf','spawn\main.sqf',
+	'spawn\config.sqf','spawn\dialogs.hpp','spawn\init.sqf','spawn\main.sqf','scripts\time_control.sqf',
 	'spawn\functions\class_fillItems.sqf','spawn\functions\class_pick.sqf','spawn\functions\class_preview.sqf',
 	'spawn\functions\class_randomMags.sqf','spawn\functions\class_randomTools.sqf','spawn\functions\class_wipeGear.sqf',
 	'spawn\functions\cleanup.sqf','spawn\functions\finish.sqf','spawn\functions\spawn_fill.sqf','spawn\functions\spawn_map.sqf','spawn\functions\spawn_pick.sqf'

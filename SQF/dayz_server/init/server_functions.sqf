@@ -258,3 +258,28 @@ fa_plr2str = {
 
 //Map addons
 call compile preProcessFileLineNumbers "\z\addons\dayz_server\addons\init_aicity.sqf";//functions
+
+//time ctrl
+[] spawn {
+	private ["_dayTime","_interval"];
+	_interval = 20;
+	diag_log "Time Ctrl Start";
+	while {true} do {
+		_dayTime = dayTime;
+		//========================TIME FUNCTION============================
+		if (_dayTime >= 8 && _dayTime <= 16) then {donn_speed =  4.000;};
+		if (_dayTime >  4 && _dayTime <   8) then {donn_speed =  10.000;};
+		if (_dayTime > 16 && _dayTime <  20) then {donn_speed =  10.000;};
+		if (_dayTime <= 4 || _dayTime >= 20) then {donn_speed =  16.000;};
+		//=================================================================
+		
+		cad_pvar_server_date = [date, donn_speed];
+		publicVariable "cad_pvar_server_date";
+		sleep _interval;
+	};
+	diag_log "Time Ctrl Closed";
+};
+"cad_pvar_send_owner" addPublicVariableEventHandler {
+	cad_pvar_server_date = [date, donn_speed];
+	owner (_this select 1) publicVariableClient "cad_pvar_server_date";
+};
