@@ -14,7 +14,7 @@ if ((_projectile in MeleeAmmo) || (_projectile isKindOf "Bolt")) then { //increa
 };
 
 if (_zed isKindOf "z_soldier" || _zed isKindOf "zZombie_new_Base") then {
-	_damage = _damage * 0.2;
+	_damage = _damage * 0.4;
 };
 
 if (local _zed) then {
