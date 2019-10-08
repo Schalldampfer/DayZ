@@ -2,7 +2,6 @@ private ["_escMenu","_typf","_mxBckpcks","_vehicle","_inVehicle"];
  
 disableSerialization;
 waitUntil {!isNull findDisplay 49};
-call player_forceSave;
 _escMenu = findDisplay 49;
 {
    _typf = typeOf cursortarget;
