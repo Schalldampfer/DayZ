@@ -9,7 +9,6 @@
 if(!(isNull findDisplay 106)) then {findDisplay 106 closeDisplay 0}; // close gear menu
 
 "Server Rules" hintC parseText format ["
-<t size='1.0' shadow='1'align='left' color='#FFFFFF'>[JP] Parsley PvP server</t><br/>
 <t size='1.0' shadow='1'align='left' color='#CCEEFF'>Info:</t><t size='.5' shadow='1'align='right' color='#FFFFFF'></t><br/>
 <t size='0.8' shadow='1'align='left' color='#FFFFFF'>Time acceleration, especially at night.</t><br/>
 <t size='0.8' shadow='1'align='left' color='#FFFFFF'>Click actions on some items and tools.</t><br/>
