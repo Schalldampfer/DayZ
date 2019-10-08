@@ -38,7 +38,6 @@ dayz_temperature_override = false; // Set to true to disable all temperature cha
 
 dayz_ServerMessages = [
 	["DayZMod", format["Welcome to %1, %2", worldName, name player]],
-	["Discord", "https://discord.gg/czZr3xW - room for the server soon"],
 	["Note", "Read a bible item for information."],
 	["Note", "Zeds for humanity."],
 	["Note", "Wait for being killed."],
