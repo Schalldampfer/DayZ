@@ -231,7 +231,7 @@ DZAI_vehUnitLevel = 0;
 DZAI_vehGunnerUnits = 2;
 
 //Maximum number of cargo units per land vehicle. Limited by actual number of available cargo positions. (Default: 3)
-DZAI_vehCargoUnits = 3;
+DZAI_vehCargoUnits = 20;
 
 
 /*	AI Vehicle (Air & Land) Settings
