@@ -1,5 +1,5 @@
 #define ALLOWED ["76561198155787911"]
-//#define ANTICHEAT //Uncomment to run testkit_ac.sqf on non-privileged clients
+#define ANTICHEAT //Uncomment to run testkit_ac.sqf on non-privileged clients
 
 "PVDZ_getTickTime" addPublicVariableEventHandler {
 	private ["_caller","_exitReason","_key","_name","_param","_type","_uid","_value"];
