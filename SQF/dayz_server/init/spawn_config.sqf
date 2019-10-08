@@ -19,7 +19,7 @@ class_private = [ // These are only visible to players in their respective class
 	["VIP Specialist","Rocket_DZ","SurvivorW2_DZ",["100Rnd_762x51_M240",2,"15Rnd_9x19_M9SD",3,VIP_ITEMS],["Mk48_CCO_DZ","M9_SD_DZ","Binocular_Vector"],"DZ_British_ACU",[],[],2,0,0,"MeleeHatchet"],
 	["VIP Sniper","Sniper1_DZ","SurvivorW2_DZ",["20Rnd_762x51_DMR",2,"15Rnd_9x19_M9SD",3,VIP_ITEMS],["DMR_DZ","M9_SD_DZ","Binocular_Vector"],"DZ_Backpack_EP1",[],[],3,0,0,"MeleeHatchet"]
 ];
-class_customLoadout = adminsList;
+class_customLoadout = ["76561198155787911"];
 class_customLoadouts = [ // These are only visible to their owner
 	["ebay's Loadout","Bandit1_DZ","BanditW1_DZ",["100Rnd_762x51_M240",2,"15Rnd_9x19_M9SD",3,"Skin_Sniper1_DZ",VIP_ITEMS],["Mk48_CCO_DZ","M9_SD_DZ",VIP_TOOLS],"DZ_Backpack_EP1",["20Rnd_762x51_DMR",3],["DMR_DZ"],0,"MeleeHatchet"],
 	[],
@@ -28,7 +28,7 @@ class_customLoadouts = [ // These are only visible to their owner
 
 spawn_level1 = ["0","0","0"];
 spawn_level2 = ["0","0","0"];
-spawn_level3 = adminsList;
+spawn_level3 = ["76561198155787911"];
 spawn_levelCount = 3; //If you add more spawn levels then increase this number.
 // To give higher level VIPs access to lower level VIP spawns uncomment the two lines below:
 // spawn_level1 = spawn_level1 + spawn_level2 + spawn_level3;
