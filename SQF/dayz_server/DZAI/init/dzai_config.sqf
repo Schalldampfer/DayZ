@@ -298,16 +298,16 @@ DZAI_numMiscItemL = 1;
 --------------------------------------------------------------------------------------------------------------------*/
 
 //Chance to add each medical item.
-DZAI_chanceMedicals = 0.10;
+DZAI_chanceMedicals = 0.05;
 
 //Chance to add each edible item.
-DZAI_chanceEdibles = 0.20;
+DZAI_chanceEdibles = 0.12;
 
 //Chance to add each random item from DZAI_MiscItemS table.
-DZAI_chanceMiscItemS = 0.50;
+DZAI_chanceMiscItemS = 0.10;
 
 //Chance to add each random item from DZAI_MiscItemL table.
-DZAI_chanceMiscItemL = 0.05;
+DZAI_chanceMiscItemL = 0.03;
 
 
 /*AI weapon/skill probabilities (gradeChances should add up to 1.00) - [Civilian, Military, MilitarySpecial, HeliCrash] - Note: AI with higher grade weaponry will also have higher skill settings.
@@ -495,15 +495,15 @@ DZAI_MiscItemL = ["HandRoadFlare", "ItemJerrycan", "PartWheel", "PartEngine", "P
 //Weapongrade level 0-1 AI will use DZAI_tools0 table, weapongrade level 2-3 AI will use DZAI_tools1 table. Custom-spawned AI will use DZAI_tools1 table.
 //NOTE: Do not delete any elements from this list, set its chance to zero intead. Only add elements to the end of the array, not in the middle.
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-DZAI_tools0 = [["ItemFlashlight",0.25],["ItemWatch",0.65],["ItemKnife",0.50],["ItemHatchet",0.20],["ItemCompass",0.30],["ItemMap",0.05],["ItemToolbox",0.10],["ItemMatchbox",0.25],["ItemFlashlightRed",0.05],["ItemGPS",0.00],["ItemRadio",0.005],["ItemCrowbar",0.15]];
-DZAI_tools1 = [["ItemFlashlight",0.55],["ItemWatch",0.75],["ItemKnife",0.65],["ItemHatchet",0.50],["ItemCompass",0.55],["ItemMap",0.30],["ItemToolbox",0.35],["ItemMatchbox",0.40],["ItemFlashlightRed",0.10],["ItemGPS",0.05],["ItemRadio",0.075],["ItemCrowbar",0.35]];
+DZAI_tools0 = [["ItemFlashlight",0.15],["ItemWatch",0.40],["ItemKnife",0.30],["ItemHatchet",0.10],["ItemCompass",0.05],["ItemMap",0.05],["ItemToolbox",0.05],["ItemMatchbox",0.05],["ItemFlashlightRed",0.05],["ItemGPS",0.00],["ItemRadio",0.005],["ItemCrowbar",0.05]];
+DZAI_tools1 = [["ItemFlashlight",0.55],["ItemWatch",0.75],["ItemKnife",0.65],["ItemHatchet",0.50],["ItemCompass",0.55],["ItemMap",0.30],["ItemToolbox",0.35],["ItemMatchbox",0.20],["ItemFlashlightRed",0.10],["ItemGPS",0.05],["ItemRadio",0.075],["ItemCrowbar",0.35]];
 
 
 //AI-useable toolbelt item types. These items are added to AI inventory at unit creation and may be used by AI. Format: [item classname, item probability]
 //Weapongrade level 0-1 AI will use DZAI_gadgets0 table, weapongrade level 2-3 AI will use DZAI_gadgets1 table. Custom-spawned AI will use DZAI_gadgets1 table.
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-DZAI_gadgets0 = [["binocular",0.20],["NVGoggles",0.00]];
-DZAI_gadgets1 = [["Binocular_Vector",0.01],["binocular",0.60],["NVGoggles",0.05]];
+DZAI_gadgets0 = [["binocular",0.10],["NVGoggles",0.00]];
+DZAI_gadgets1 = [["Binocular_Vector",0.01],["binocular",0.30],["NVGoggles",0.05]];
 
 
 //NOTHING TO EDIT BEYOND THIS POINT
