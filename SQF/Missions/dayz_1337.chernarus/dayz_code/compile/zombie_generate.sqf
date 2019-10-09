@@ -101,6 +101,7 @@ if ((_maxlocalspawned < _maxControlledZombies) && (dayz_CurrentNearByZombies < d
 		};
 		
 		_agent setVariable["agentObject",_agent];
+		_agent addRating -30000;
 
 		if (!isNull _agent) then {
 			_agent setDir random 360;
