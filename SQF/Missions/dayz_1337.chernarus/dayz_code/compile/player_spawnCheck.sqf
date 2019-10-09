@@ -6,28 +6,14 @@ _speed = speed (vehicle player);
 _radius = 300; //150*0.707; Pointless Processing (106.5)
 _spawnZedRadius = 20;
 
-/*
-//Tick Time
-PVDZ_getTickTime = player;
-publicVariableServer "PVDZ_getTickTime";
-*/
-
 //Total Counts
 _maxlocalspawned = round(dayz_spawnZombies);
 _maxControlledZombies = round(dayz_maxLocalZombies);
 _maxWeaponHolders = round(dayz_maxMaxWeaponHolders);
 _currentWeaponHolders = round(dayz_currentWeaponHolders);
 
-//Limits (Land,Sea,Air)
+//Limits (Vehicle)
 _inVehicle = (vehicle player != player);
-/*
-	_isAir = vehicle player iskindof "Air";
-	_isLand =  vehicle player iskindof "Land";
-	_isSea =  vehicle player iskindof "Sea";
-	if (_isLand) then { } else {  };
-	if (_isAir) then { } else {  };
-	if (_isSea) then { } else {  };
-*/
 
 _doNothing = false;
 if (_inVehicle) then {
@@ -109,13 +95,13 @@ if (_maxlocalspawned > 0) then { _spawnZedRadius = _spawnZedRadius * 3; };
 				_serverTime = serverTime;
 				_zombied = (_x getVariable ["zombieSpawn",_serverTime]);
 				_age = _serverTime - _zombied;
-				if ((_age == 0) or (_age > 300)) then { 			
+				if ((_age == 0) or (_age > 300)) then {
 					if (!_isWreck) then {
 						if ((dayz_spawnZombies < _maxControlledZombies) and (dayz_CurrentNearByZombies < dayz_maxNearByZombies) and (dayz_currentGlobalZombies < dayz_maxGlobalZeds)) then {
 							_bPos = getPosATL _x;
 							_zombiesNum = count (_bPos nearEntities ["zZombie_Base",(((sizeOf _type) * 2) + 10)]);
 						
-							if (_zombiesNum == 0) then {    
+							if (_zombiesNum == 0) then {
 								_x setVariable ["zombieSpawn",_serverTime,!_islocal];
 								
 								if (!(_x in dayz_buildingBubbleMonitor)) then {
@@ -125,7 +111,7 @@ if (_maxlocalspawned > 0) then { _spawnZedRadius = _spawnZedRadius * 3; };
 								
 								//start spawn
 								[_x] call building_spawnZombies;
-							};							
+							};
 							//diag_log (format["%1 building. %2", __FILE__, _x]);
 						};
 					} else {
