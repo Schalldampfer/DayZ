@@ -220,6 +220,7 @@ DZAI_vehList = [
 	["UAZ_Unarmed_TK_CIV_EP1",1],
 	["S1203_TK_CIV_EP1",1],
 	["SUV_DZ",1],
+	["Ikarus",1],
 	["car_hatchback",1],
 	["car_sedan",1]
 ];
