@@ -83,7 +83,7 @@ if (_maxlocalspawned > 0) then { _spawnZedRadius = _spawnZedRadius * 3; };
 		if (getNumber(_config >> "lootChance") > 0) then {
 			if (_currentWeaponHolders < _maxWeaponHolders) then {
 				//Basic loot check
-				if ((_dis < 125) and (_dis > 30) and !_inVehicle and _checkLoot) then {
+				if ((_dis < 125) and (_dis > 30) and _checkLoot) then {
 					_serverTime = serverTime;
 					_looted = (_x getVariable ["looted",_serverTime]);
 					_age = _serverTime - _looted;
