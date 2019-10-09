@@ -9,6 +9,7 @@ _files = [
 	'custom\fn_halo.sqf','dayz_code\init\compiles.sqf','scripts\radio\switch_on_off.sqf','dayz_code\compile\Player_Debug.sqf',
 	'dayz_code\compile\fn_damageHandler.sqf','dayz_code\compile\fn_damageHandlerZ.sqf','dayz_code\compile\local_eventKill.sqf',
 	'dayz_code\compile\player_toggleSoundMute.sqf','dayz_code\compile\ui_selectSlot.sqf','dayz_code\compile\zombie_findTargetAgent.sqf',
+	'dayz_code\compile\building_spawnLoot.sqf','dayz_code\compile\player_spawnCheck.sqf',
 	'scripts\clickActions\config.sqf','scripts\clickActions\init.sqf','scripts\clickActions\examples\scanner.sqf',
 	'scripts\clickActions\examples\serverRules.sqf','scripts\clickActions\examples\suicide.sqf','scripts\dupe\DupingFix.sqf',
 	'spawn\config.sqf','spawn\dialogs.hpp','spawn\init.sqf','spawn\main.sqf','scripts\time_control.sqf',
