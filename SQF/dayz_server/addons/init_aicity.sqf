@@ -19,4 +19,7 @@ if (isNil "wai_crate_setup") then {
 //AI cities
 call compile preProcessFileLineNumbers "\z\addons\dayz_server\addons\NorthWestAirfield.sqf";
 
+//others
+call compile preProcessFileLineNumbers "\z\addons\dayz_server\addons\Others.sqf";
+
 diag_log "[AICity] AI cities are loaded";
