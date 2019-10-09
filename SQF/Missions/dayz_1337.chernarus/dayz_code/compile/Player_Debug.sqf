@@ -1,4 +1,4 @@
-private["_time","_hours","_minutes","_dmtit","_dmpic","_textCity","_nearestCity","_blood","_bldtext"];
+private["_time","_hours","_minutes","_dmtit","_dmpic","_blood","_bldtext"];
 diag_log "Debug monitor";
 while {debugMonitor} do
 {
@@ -6,10 +6,6 @@ while {debugMonitor} do
 	_time = round(serverTime/60);
 	_hours = (floor(_time/60));
 	_minutes = (_time - (_hours * 60));
-	
-	_nearestCity = nearestLocations [getPos player, ["NameCityCapital","NameCity","NameVillage","NameLocal"],750];
-	_textCity = "Somewhere";
-	if (count _nearestCity > 0) then {_textCity = text (_nearestCity select 0)};
 	
 	_dmpic = "";
 	_dmtit = "";
@@ -48,38 +44,34 @@ while {debugMonitor} do
 
   
 	hintSilent parseText format ["
-	<img size='4.5' image='%12' align='Center'/><br/>
-	<t size='1.5' font='Bitstream' align='center' color='#D9FF00'>%5</t>
+	<img size='4.5' image='%10' align='Center'/><br/>
+	<t size='1.5' font='Bitstream' align='center' color='#D9FF00'>%4</t>
 	<br/>
-	<t size='1' font='Bitstream' align='left' color='#D9FF00'>%11</t><t size='0.9' font='Bitstream' align='right' color='#D9FF00'>@%10</t>
+	<t size='1' font='Bitstream' align='left' color='#D9FF00'>%9</t>
 	<br/>
-	<t size='1' font='Bitstream' align='left' color='#FFBF00'>Players/AIs : </t><t size='1' font='Bitstream' align='right'>%1</t>
+	<t size='1' font='Bitstream' align='left' color='#FA1A16'>Blood:</t><t size='1' font='Bitstream' align='right' color='#FFFFFF'>%2</t>
 	<br/>
-	<t size='1' font='Bitstream' align='left' color='#FA1A16'>Blood:</t><t size='1' font='Bitstream' align='right' color='#FFFFFF'>%3</t>
+	<t size='1' font='Bitstream' align='left' color='#A23DFF'>Humanity:</t><t size='1' font='Bitstream' align='right' color='#FFFFFF'>%3</t>
 	<br/>
-	<t size='1' font='Bitstream' align='left' color='#A23DFF'>Humanity:</t><t size='1' font='Bitstream' align='right' color='#FFFFFF'>%4</t>
+	<t size='1' font='Bitstream' align='left' color='#e5e5e5'>Kill(Z/H):</t><t size='1' font='Bitstream' align='right' color='#FFFFFF'>%8/%1</t>
 	<br/>
-	<t size='1' font='Bitstream' align='left' color='#e5e5e5'>Kill(Z/H):</t><t size='1' font='Bitstream' align='right' color='#FFFFFF'>%9/%2</t>
+	<t size='1' font='Bitstream' align='left' color='#8CFA16'>FPS:</t><t size='1' font='Bitstream' align='right' color='#FFFFFF'>%5</t>
 	<br/>
-	<t size='1' font='Bitstream' align='left' color='#8CFA16'>FPS:</t><t size='1' font='Bitstream' align='right' color='#FFFFFF'>%6</t>
-	<br/>
-	<t size='0.9' font='Bitstream' align='center' color='#FFFFFF'>%7 hr %8 min</t><t size='0.9' font='Bitstream' align='center' color='#AAFFFF'> from Restart</t>
+	<t size='0.9' font='Bitstream' align='center' color='#FFFFFF'>%6 hr %7 min</t><t size='0.9' font='Bitstream' align='center' color='#AAFFFF'> from Restart</t>
 	<br/>
 	<t size='0.9' font='Bitstream' align='center' color='#00FFD9'>[F1]:Earplug</t>
 	",
 	
-		({alive _x} count allUnits),							//%1
-		((player getVariable['humanKills', 0]) + (player getVariable['banditKills', 0])),	//%2
-		_bldtext,												//%3
-	 	(player getVariable['humanity', 0]),					//%4
-		dayz_playerName,										//%5
-		round diag_FPS,											//%6
-		_hours, 												//%7
-		_minutes, 												//%8
-		(player getVariable['zombieKills', 0]),					//%9
-		_textCity,												//%10
-		_dmtit,													//%11
-		_dmpic													//%12
+		((player getVariable['humanKills', 0]) + (player getVariable['banditKills', 0])),	//%1
+		_bldtext,												//%2
+	 	(player getVariable['humanity', 0]),					//%3
+		dayz_playerName,										//%4
+		round diag_FPS,											//%5
+		_hours, 												//%6
+		_minutes, 												//%7
+		(player getVariable['zombieKills', 0]),					//%8
+		_dmtit,													//%9
+		_dmpic													//%10
 	];
 	sleep 1.0;
 };
