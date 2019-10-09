@@ -25,7 +25,7 @@ onPauseScript = "scripts\dupe\DupingFix.sqf";
 briefing = 0;
 debriefing = 0;
 
-loadScreen = "\z\addons\dayz_code\gui\loadingscreen.paa";
+loadScreen = "loadingscreen.jpg";
 
 class Header
 {
