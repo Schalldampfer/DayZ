@@ -41,7 +41,7 @@ class CfgLoot
 		
 		// Points of interest
 		#include "Groups\CrashSite.hpp"
-		#include "Groups\CarePackage.hpp"
+		#include "\z\addons\dayz_code\Configs\CfgLoot\Groups\CarePackage.hpp"
 		#include "Groups\InfectedCamp.hpp"
 		
 		// Buildings
