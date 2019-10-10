@@ -32,12 +32,12 @@ class CfgLoot
 		#include "Groups\AmmoBox.hpp"
 		#include "Groups\Attachments.hpp"
 		#include "Groups\Medical.hpp"
-		#include "Groups\Generic.hpp"
-		#include "Groups\Trash.hpp"
-		#include "Groups\Consumable.hpp"
-		#include "Groups\ConsumableItems.hpp"
+		#include "\z\addons\dayz_code\Configs\CfgLoot\Groups\Generic.hpp"
+		#include "\z\addons\dayz_code\Configs\CfgLoot\Groups\Trash.hpp"
+		#include "\z\addons\dayz_code\Configs\CfgLoot\Groups\Consumable.hpp"
+		#include "\z\addons\dayz_code\Configs\CfgLoot\Groups\ConsumableItems.hpp"
 		#include "Groups\Fuel.hpp"
-		#include "Groups\Parts.hpp"
+		#include "\z\addons\dayz_code\Configs\CfgLoot\Groups\Parts.hpp"
 		
 		// Points of interest
 		#include "Groups\CrashSite.hpp"
@@ -63,10 +63,10 @@ class CfgLoot
 		#include "Groups\Buildings\Hangar.hpp"
 	
 		// Zombies
-		#include "Groups\Zombies\Civilian.hpp"
-		#include "Groups\Zombies\Hunter.hpp"
-		#include "Groups\Zombies\Police.hpp"
-		#include "Groups\Zombies\Military.hpp"
+		#include "\z\addons\dayz_code\Configs\CfgLoot\Groups\Zombies\Civilian.hpp"
+		#include "\z\addons\dayz_code\Configs\CfgLoot\Groups\Zombies\Hunter.hpp"
+		#include "\z\addons\dayz_code\Configs\CfgLoot\Groups\Zombies\Police.hpp"
+		#include "\z\addons\dayz_code\Configs\CfgLoot\Groups\Zombies\Military.hpp"
 		
 		#undef DZ_BP_VestPouch
 		#undef DZ_BP_Patrol
