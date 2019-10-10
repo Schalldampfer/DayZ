@@ -29,7 +29,7 @@ MedicalBox[] =
 	{Loot_MAGAZINE,		2,		ItemBloodbagEmpty},
 	
 	{Loot_GROUP,		1,		Antibiotics},
-	{Loot_GROUP,		15,		Bloodbags},
+	{Loot_GROUP,		10,		Bloodbags},
 	
 	{Loot_GROUP,		7,		MedicalLow}
 };
@@ -49,8 +49,8 @@ Bloodbags[] =
 	{Loot_MAGAZINE,		5,		ItemBloodbagBPos},
 	{Loot_MAGAZINE,		4,		ItemBloodbagBNeg},
 	
-	{Loot_MAGAZINE,		2,		ItemBloodbagABPos},
-	{Loot_MAGAZINE,		2,		ItemBloodbagABNeg},
+	{Loot_MAGAZINE,		1,		ItemBloodbagABPos},
+	{Loot_MAGAZINE,		0.5,		ItemBloodbagABNeg},
 	
 	{Loot_MAGAZINE,		2,		ItemBloodbagOPos},
 	{Loot_MAGAZINE,		1,		ItemBloodbagONeg}

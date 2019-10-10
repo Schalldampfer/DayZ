@@ -1,8 +1,8 @@
 AttachmentsGeneric[] =
 {
-	{Loot_MAGAZINE,		3,		Attachment_BELT},
+	{Loot_MAGAZINE,		1,		Attachment_BELT},
 	{Loot_MAGAZINE,		1,		Attachment_SCOPED},
-	{Loot_MAGAZINE,		2,		Attachment_FL},
+	{Loot_MAGAZINE,		3,		Attachment_FL},
 	{Loot_MAGAZINE,		2,		Attachment_FL_Pist}
 };
 
@@ -27,6 +27,6 @@ AttachmentsWest[] =
 	{Loot_MAGAZINE,		1,		Attachment_Sup556},
 	{Loot_MAGAZINE,		3,		Attachment_Sup9},
 	{Loot_MAGAZINE,		3,		Attachment_SA58RIS},
-	{Loot_MAGAZINE,		3,		Attachment_MFL},
-	{Loot_MAGAZINE,		3,		Attachment_MFL_Pist}
+	{Loot_MAGAZINE,		1,		Attachment_MFL},
+	{Loot_MAGAZINE,		1,		Attachment_MFL_Pist}
 };

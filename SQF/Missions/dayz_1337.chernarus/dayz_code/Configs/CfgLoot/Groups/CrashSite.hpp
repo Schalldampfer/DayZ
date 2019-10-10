@@ -16,28 +16,28 @@ CrashSiteRU[] =
 {
 	//Weapons
 	{Loot_WEAPON,		2,		Makarov_DZ},
-	{Loot_WEAPON,		4,		PDW_DZ},
-	{Loot_WEAPON,		4,		Bizon_DZ},
-	{Loot_WEAPON,		3,		AKS74U_DZ},
+	{Loot_WEAPON,		1,		PDW_DZ},
+	{Loot_WEAPON,		2,		Bizon_DZ},
+	{Loot_WEAPON,		1,		AKS74U_DZ},
 	{Loot_WEAPON,		3,		AK74_DZ},
 	{Loot_WEAPON,		4,		AKM_DZ},
-	{Loot_WEAPON,		4,		RPK74_DZ},
-	{Loot_WEAPON,		2,		RPK_DZ},
-	{Loot_WEAPON,		0.7,	PKM_DZ},
-	{Loot_WEAPON,		0.7,	SVD_DZ},
+	{Loot_WEAPON,		2,		RPK74_DZ},
+	{Loot_WEAPON,		1,		RPK_DZ},
+	{Loot_WEAPON,		0.2,	PKM_DZ},
+	{Loot_WEAPON,		0.2,	SVD_DZ},
 	{Loot_WEAPON,		1,		M40A3_DZ},
-	{Loot_WEAPON,		0.7,	FNFAL_DZ},
+	{Loot_WEAPON,		0.4,	FNFAL_DZ},
 	
 	//Tools
-	{Loot_WEAPON,		1.5,	ItemGPS},
-	{Loot_WEAPON,		1,		Binocular_Vector},
+	{Loot_WEAPON,		0.5,	ItemGPS},
+	{Loot_WEAPON,		0.5,	Binocular_Vector},
 	//{Loot_MAGAZINE,		0.5,	PipeBomb},
 	
 	//Backpacks
 	
 	//Clothing
-	{Loot_MAGAZINE,		2.5,	Skin_Camo1_DZ},
-	{Loot_MAGAZINE,		1.5,	Skin_Sniper1_DZ},
+	{Loot_MAGAZINE,		0.5,	Skin_Camo1_DZ},
+	{Loot_MAGAZINE,		1.0,	Skin_Sniper1_DZ},
 	
 	//Containers
 	{Loot_CONTAINER,	1,		DZ_MedBox, MedicalBox, 10, 20},
@@ -79,26 +79,26 @@ CrashSiteRUPile[] =
 CrashSiteUS[] =
 {
 	//Weapons
-	{Loot_WEAPON,		4,		M9_DZ},
-	{Loot_WEAPON,		6,		MP5_DZ},
-	{Loot_WEAPON,		6,		M4A1_DZ},
-	{Loot_WEAPON,		8,		M16A4_DZ},
-	{Loot_WEAPON,		0.9,	M249_DZ},
-	{Loot_WEAPON,		0.7,	Mk48_DZ},
-	{Loot_WEAPON,		1,		M14_DZ},
-	{Loot_WEAPON,		0.5,	DMR_DZ},
-	{Loot_WEAPON,		1,		M24_DZ},
+	{Loot_WEAPON,		3,		M9_DZ},
+	{Loot_WEAPON,		4,		MP5_DZ},
+	{Loot_WEAPON,		1,		M4A1_DZ},
+	{Loot_WEAPON,		4,		M16A4_DZ},
+	{Loot_WEAPON,		0.5,	M249_DZ},
+	{Loot_WEAPON,		0.5,	Mk48_DZ},
+	{Loot_WEAPON,		0.5,		M14_DZ},
+	{Loot_WEAPON,		0.2,	DMR_DZ},
+	{Loot_WEAPON,		0.5,		M24_DZ},
 	
 	//Tools
-	{Loot_WEAPON,		1.5,	ItemGPS},
-	{Loot_WEAPON,		1,		Binocular_Vector},
+	{Loot_WEAPON,		0.5,	ItemGPS},
+	{Loot_WEAPON,		0.5,	Binocular_Vector},
 	//{Loot_MAGAZINE,		0.7,	PipeBomb},
 	
 	//Backpacks
 	
 	//Clothing
-	{Loot_MAGAZINE,		2.5,	Skin_Camo1_DZ},
-	{Loot_MAGAZINE,		1.5,	Skin_Sniper1_DZ},
+	{Loot_MAGAZINE,		0.5,	Skin_Camo1_DZ},
+	{Loot_MAGAZINE,		1.0,	Skin_Sniper1_DZ},
 	
 	//Containers
 	{Loot_CONTAINER,	3,		DZ_MedBox, MedicalBox, 10, 20},
@@ -140,27 +140,27 @@ CrashSiteEU[] =
 	//Weapons
 	{Loot_WEAPON,		4,		G17_DZ},
 	{Loot_WEAPON,		6,		MP5_DZ},
-	{Loot_WEAPON,		5,		G36C_DZ},
-	{Loot_WEAPON,		5,		L85A2_DZ},
-	{Loot_WEAPON,		1.5,	G36K_Camo_DZ},
-	{Loot_WEAPON,		2.5,	G36A_Camo_DZ},
-	{Loot_WEAPON,		1,		FNFAL_DZ},
-	{Loot_WEAPON,		0.5,	FNFAL_ANPVS4_DZ},
-	{Loot_WEAPON,		0.7,	M240_DZ},
-	{Loot_WEAPON,		0.9,	L110A1_DZ},
-	{Loot_WEAPON,		1,		M24_DZ},
-	{Loot_WEAPON,		0.5,	L115A3_2_DZ},
+	{Loot_WEAPON,		3,		G36C_DZ},
+	{Loot_WEAPON,		1,		L85A2_DZ},
+	{Loot_WEAPON,		0.5,	G36K_Camo_DZ},
+	{Loot_WEAPON,		1.5,	G36A_Camo_DZ},
+	{Loot_WEAPON,		0.5,		FNFAL_DZ},
+	{Loot_WEAPON,		0.1,	FNFAL_ANPVS4_DZ},
+	{Loot_WEAPON,		0.5,	M240_DZ},
+	{Loot_WEAPON,		0.5,	L110A1_DZ},
+	{Loot_WEAPON,		0.5,		M24_DZ},
+	{Loot_WEAPON,		0.1,	L115A3_2_DZ},
 	
 	//Tools
-	{Loot_WEAPON,		1.5,	ItemGPS},
-	{Loot_WEAPON,		1,		Binocular_Vector},
+	{Loot_WEAPON,		0.5,	ItemGPS},
+	{Loot_WEAPON,		0.5,	Binocular_Vector},
 	//{Loot_MAGAZINE,		0.8,	PipeBomb},
 	
 	//Backpacks
 	
 	//Clothing
-	{Loot_MAGAZINE,		2.5,	Skin_Camo1_DZ},
-	{Loot_MAGAZINE,		1.5,	Skin_Sniper1_DZ},
+	{Loot_MAGAZINE,		0.5,	Skin_Camo1_DZ},
+	{Loot_MAGAZINE,		1.0,	Skin_Sniper1_DZ},
 	
 	//Containers
 	{Loot_CONTAINER,	3,		DZ_MedBox, MedicalBox, 10, 20},
@@ -206,19 +206,19 @@ CrashSiteUN[] =
 	{Loot_WEAPON,		2,		Bizon_DZ},
 	{Loot_WEAPON,		2,		MP5_DZ},
 	{Loot_WEAPON,		3,		AK74_DZ},
-	{Loot_WEAPON,		3,		AKS74U_DZ},
-	{Loot_WEAPON,		2,		M4A1_DZ},
+	{Loot_WEAPON,		1,		AKS74U_DZ},
+	{Loot_WEAPON,		1,		M4A1_DZ},
 	{Loot_WEAPON,		3,		M16A4_DZ},
-	{Loot_WEAPON,		3,		G36C_DZ},
+	{Loot_WEAPON,		1,		G36C_DZ},
 	{Loot_WEAPON,		2,		L85A2_DZ},
 	{Loot_WEAPON,		1,		RPK74_DZ},
 	
 	//Tools
-	{Loot_WEAPON,		2,		ItemGPS},
+	{Loot_WEAPON,		1,		ItemGPS},
 	//{Loot_MAGAZINE,		1,		PipeBomb},
 	
 	//Clothing
-	{Loot_MAGAZINE,		2,		Skin_Camo1_DZ},
+	{Loot_MAGAZINE,		1,		Skin_Camo1_DZ},
 	
 	//Containers
 	{Loot_CONTAINER,	10,		DZ_MedBox, MedicalBox, 10, 20},

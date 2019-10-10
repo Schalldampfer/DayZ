@@ -2,7 +2,7 @@
 AmmoBoxRU1[] =
 {
 	{Loot_MAGAZINE,		6,		30Rnd_545x39_AK},
-	{Loot_MAGAZINE,		3,		30Rnd_545x39_AKSD},
+//	{Loot_MAGAZINE,		3,		30Rnd_545x39_AKSD},
 	{Loot_MAGAZINE,		1,		75Rnd_545x39_RPK}
 };
 
@@ -16,7 +16,7 @@ AmmoBoxRU2[] =
 //7.62x54Rmm
 AmmoBoxRU3[] =
 {
-	{Loot_MAGAZINE,		9,		10Rnd_762x54_SVD},
+	{Loot_MAGAZINE,		5,		10Rnd_762x54_SVD},
 	{Loot_MAGAZINE,		1,		100Rnd_762x54_PK}
 };
 
@@ -24,7 +24,7 @@ AmmoBoxRU3[] =
 AmmoBoxUS1[] =
 {
 	{Loot_MAGAZINE,		14,		30Rnd_556x45_Stanag},
-	{Loot_MAGAZINE,		8,		30Rnd_556x45_StanagSD},
+//	{Loot_MAGAZINE,		8,		30Rnd_556x45_StanagSD},
 	{Loot_MAGAZINE,		1.5,	100Rnd_556x45_M249},
 	{Loot_MAGAZINE,		0.5,	200Rnd_556x45_M249}
 };
@@ -32,15 +32,15 @@ AmmoBoxUS1[] =
 //7.62x51mm
 AmmoBoxUS2[] =
 {
-	{Loot_MAGAZINE,		9,		20Rnd_762x51_DMR},
-	{Loot_MAGAZINE,		1,		100Rnd_762x51_M240}
+	{Loot_MAGAZINE,		3,		20Rnd_762x51_DMR},
+	{Loot_MAGAZINE,		2,		100Rnd_762x51_M240}
 };
 
 //5.56x45mm
 AmmoBoxEU1[] =
 {
 	{Loot_MAGAZINE,		14,		30Rnd_556x45_G36},
-	{Loot_MAGAZINE,		8,		30Rnd_556x45_G36SD},
+//	{Loot_MAGAZINE,		8,		30Rnd_556x45_G36SD},
 	{Loot_MAGAZINE,		1.5,	100Rnd_556x45_M249},
 	{Loot_MAGAZINE,		0.5,	200Rnd_556x45_M249}
 };
