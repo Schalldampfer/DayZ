@@ -1,11 +1,11 @@
 JerryCan[] =
 {
-	{Loot_MAGAZINE,		1,		ItemJerryCan},
-	{Loot_MAGAZINE,		1,		ItemJerryCanEmpty}
+	{Loot_MAGAZINE,		0.5,		ItemJerryCan},
+	{Loot_MAGAZINE,		2,		ItemJerryCanEmpty}
 };
  
 FuelCan[] =
 {
-	{Loot_MAGAZINE,		1,		ItemFuelcan},
-	{Loot_MAGAZINE,		1,		ItemFuelcanEmpty}
+	{Loot_MAGAZINE,		2,		ItemFuelcan},
+	{Loot_MAGAZINE,		0.5,		ItemFuelcanEmpty}
 }; 
