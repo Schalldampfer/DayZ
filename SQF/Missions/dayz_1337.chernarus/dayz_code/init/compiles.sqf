@@ -4,6 +4,8 @@ if (isServer) then {
 };
 
 if (!isDedicated) then {
+	call compile preprocessFileLineNumbers "dayz_code\loot\init.sqf";//Loot init
+	
 	player_toggleSoundMute = compile preprocessFileLineNumbers "dayz_code\compile\player_toggleSoundMute.sqf";
 	player_selectSlot = compile preprocessFileLineNumbers "dayz_code\compile\ui_selectSlot.sqf";
 	player_spawnCheck = compile preprocessFileLineNumbers "dayz_code\compile\player_spawnCheck.sqf";
