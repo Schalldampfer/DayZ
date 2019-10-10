@@ -218,9 +218,13 @@ DZAI_vehList = [
 	["ZSU_Gue_CP",1],
 	["Pickup_PK_INS",1],
 	["UAZ_Unarmed_TK_CIV_EP1",1],
+	["datsun1_civil_1_open",1],
+	["datsun1_civil_3_open",1],
+	["hilux1_civil_1_open",1],
+	["hilux1_civil_3_open",1],
+	["VolhaLimo_TK_CIV_EP1",1],
 	["S1203_TK_CIV_EP1",1],
 	["SUV_DZ",1],
-	["Ikarus",1],
 	["car_hatchback",1],
 	["car_sedan",1]
 ];
@@ -232,7 +236,7 @@ DZAI_vehUnitLevel = 0;
 DZAI_vehGunnerUnits = 2;
 
 //Maximum number of cargo units per land vehicle. Limited by actual number of available cargo positions. (Default: 3)
-DZAI_vehCargoUnits = 20;
+DZAI_vehCargoUnits = 6;
 
 
 /*	AI Vehicle (Air & Land) Settings
@@ -343,7 +347,7 @@ DZAI_skill0 = [
 	["aimingShake",0.50,0.59],
 	["aimingSpeed",0.50,0.59],
 	["endurance",0.50,0.59],
-	["spotDistance",0.50,0.59],
+	["spotDistance",1.00,1.00],
 	["spotTime",0.50,0.59],
 	["courage",0.50,0.59],
 	["reloadSpeed",0.50,0.59],
@@ -357,7 +361,7 @@ DZAI_skill1 = [
 	["aimingShake",0.60,0.69],
 	["aimingSpeed",0.60,0.69],
 	["endurance",0.60,0.69],
-	["spotDistance",0.60,0.69],
+	["spotDistance",1.00,1.00],
 	["spotTime",0.60,0.69],
 	["courage",0.60,0.69],
 	["reloadSpeed",0.60,0.69],
@@ -371,11 +375,11 @@ DZAI_skill2 = [
 	["aimingShake",0.70,0.79],
 	["aimingSpeed",0.70,0.79],
 	["endurance",0.70,0.79],
-	["spotDistance",0.70,0.79],
+	["spotDistance",1.00,1.00],
 	["spotTime",0.70,0.79],
 	["courage",0.70,0.79],
 	["reloadSpeed",0.70,0.79],
-	["commanding",0.80,0.89],
+	["commanding",1.00,1.00],
 	["general",0.80,0.89]
 ];
 
@@ -385,12 +389,12 @@ DZAI_skill3 = [
 	["aimingShake",0.80,0.89],
 	["aimingSpeed",0.80,0.89],
 	["endurance",0.80,0.89],
-	["spotDistance",0.80,0.89],
+	["spotDistance",1.00,1.00],
 	["spotTime",0.80,0.89],
 	["courage",0.80,0.89],
-	["reloadSpeed",0.80,0.89],
-	["commanding",0.90,0.99],
-	["general",0.90,0.99]
+	["reloadSpeed",1.00,1.00],
+	["commanding",1.00,1.00],
+	["general",1.00,1.00]
 ];
 
 
