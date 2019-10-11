@@ -1,6 +1,6 @@
 //Server settings
 dayZ_instance = 1337; //Instance ID of this server
-dayZ_serverName = "PvP&E"; //Shown to all players in the bottom left of the screen (country code + server number)
+dayZ_serverName = "DayZ"; //Shown to all players in the bottom left of the screen (country code + server number)
 
 //Game settings
 dayz_antihack = 1; // DayZ Antihack / 1 = enabled // 0 = disabled
