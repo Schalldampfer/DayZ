@@ -262,15 +262,15 @@ call compile preProcessFileLineNumbers "\z\addons\dayz_server\addons\init_aicity
 //time ctrl
 [] spawn {
 	private ["_dayTime","_interval"];
-	_interval = 20;
+	_interval = 30;
 	diag_log "Time Ctrl Start";
 	while {true} do {
 		_dayTime = dayTime;
 		//========================TIME FUNCTION============================
-		if (_dayTime >= 8 && _dayTime <= 16) then {donn_speed =  4.000;};
-		if (_dayTime >  4 && _dayTime <   8) then {donn_speed =  10.000;};
-		if (_dayTime > 16 && _dayTime <  20) then {donn_speed =  10.000;};
-		if (_dayTime <= 4 || _dayTime >= 20) then {donn_speed =  16.000;};
+		if (_dayTime >= 8 && _dayTime <= 16) then {donn_speed =  4.000;setviewdistance 2500;};
+		if (_dayTime >  4 && _dayTime <   8) then {donn_speed =  8.000;setviewdistance 1200;};
+		if (_dayTime > 16 && _dayTime <  20) then {donn_speed =  8.000;setviewdistance 1200;};
+		if (_dayTime <= 4 || _dayTime >= 20) then {donn_speed =  16.000;setviewdistance 1000;};
 		//=================================================================
 		
 		cad_pvar_server_date = [date, donn_speed];
