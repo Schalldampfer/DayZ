@@ -168,7 +168,7 @@ DZAI_randAreaBlacklist = [];
 --------------------------------------------------------------------------------------------------------------------*/
 
 //Global maximum number of active AI air vehicle patrols. Set at 0 to disable (Default: 0).
-DZAI_maxHeliPatrols = 3;
+DZAI_maxHeliPatrols = 1;
 
 //Set minimum and maximum wait time in seconds to respawn an AI vehicle patrol after vehicle is destroyed or disabled. (Default: Min 600, Max 900).
 DZAI_respawnTMinA = 600;
@@ -178,15 +178,11 @@ DZAI_respawnTMaxA = 900;
 DZAI_heliList = [
 	["UH1H_DZ",1],
 	["UH1H_2_DZ",1],
-	["Mi17_DZ",1],
-	["AH6X_DZ",1],
-	["MH6J_DZ",1],
-	["AN2_DZ",1],
-	["AN2_2_DZ",1]
+	["Mi17_DZ",1]
 ];
 
 //Difficulty level of air vehicle patrol units. Difficulty level also affects unit loadout and loot. Possible values: 0 to 3 (Default: 3)
-DZAI_heliUnitLevel = 2;
+DZAI_heliUnitLevel = 3;
 
 //Maximum number of gunner units per air vehicle. Limited by actual number of available gunner positions. (Default: 2)
 DZAI_heliGunnerUnits = 3;
