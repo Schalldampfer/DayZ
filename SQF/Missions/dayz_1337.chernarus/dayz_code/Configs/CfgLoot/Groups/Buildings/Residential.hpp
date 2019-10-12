@@ -1,13 +1,13 @@
 Residential[] =
 {
 	//Weapons
-	{Loot_WEAPON,		2,		Makarov_DZ},
-	{Loot_WEAPON,		1,		M1911_DZ},
-	{Loot_WEAPON,		2,		Revolver_DZ},
-	{Loot_WEAPON,		1,		MR43_DZ},
-	{Loot_WEAPON,		0.5,		Winchester1866_DZ},
-	{Loot_WEAPON,		0.5,		LeeEnfield_DZ},
-	{Loot_WEAPON,		0.5,		Mosin_DZ},
+	{Loot_WEAPON,		1,		Makarov_DZ},
+	{Loot_WEAPON,		0.5,	M1911_DZ},
+	{Loot_WEAPON,		0.5,	Revolver_DZ},
+	//{Loot_WEAPON,		1,		MR43_DZ},
+	//{Loot_WEAPON,		0.5,		Winchester1866_DZ},
+	//{Loot_WEAPON,		0.5,		LeeEnfield_DZ},
+	//{Loot_WEAPON,		0.5,		Mosin_DZ},
 	{Loot_WEAPON,		6,		MeleeBaseBallBat},
 	
 	//Tools
